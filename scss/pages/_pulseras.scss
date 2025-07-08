@@ -1,0 +1,83 @@
+.hero__pulseras {
+  position: relative;
+  background-image: url('/imagenes/fotos_pulseras/fondo_pulseras.jpeg');
+  background-size: cover;
+  background-position: center;
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: white;
+
+  .navbar {
+    background: transparent !important;
+    position: relative;
+    z-index: 2;
+  }
+
+  .overlay {
+    position: relative;
+    z-index: 2;
+    text-align: center;
+    margin-top: 3rem;
+    padding: 1rem;
+  }
+
+  &::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(10, 10, 10, 0.2);
+    z-index: 1;
+  }
+}
+
+.transition-navbar {
+  background-color: transparent;
+  transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.navbar-scroll {
+  background-color: #ffffff;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.overlay {
+  text-align: center;
+  margin-top: 4rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: calc(90vh - 100px);
+}
+
+.titulo__pulseras {
+  font-size: 4rem;
+  font-weight: bold;
+}
+
+.subtitulo__pulseras {
+  font-size: 1.2rem;
+  max-width: 800px;
+}
+
+.seccion__titulo__pulseras h1 {
+  margin: 1rem 0 0.5rem 0;
+  color: #333d;
+  font-style: italic;
+}
+
+.seccion__global__pulseras {
+  padding: 40px;
+  background-color: var(--color__principal);
+}
+
+.galeria__contenedor__pulseras {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 24px;
+}

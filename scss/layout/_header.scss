@@ -1,0 +1,36 @@
+.header .navbar {
+    background-color: var(--color__principal)!important;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar__img img {
+    width: 60px;
+    border-radius: 10px;
+}
+
+.titulo__header {
+    font-style: italic;
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: var(--color__logo);
+}
+
+.header__list .nav-link {
+    margin-left: 30px;
+    font-weight: 500;
+}
+
+.submenu {
+    padding: 8px;
+    margin: 3px 0;
+    transition: background-color 0.3s ease;
+
+    &:hover {
+        background-color: #f3f2f2;
+    }
+}
