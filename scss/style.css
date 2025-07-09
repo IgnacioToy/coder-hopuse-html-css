@@ -37,7 +37,6 @@ body {
   font-style: italic;
   font-size: 1.5rem;
   font-weight: 600;
-  color: var(--color__logo);
 }
 
 .header__list .nav-link {
@@ -51,7 +50,7 @@ body {
   transition: background-color 0.3s ease;
 }
 .submenu:hover {
-  background-color: #f3f2f2;
+  background-color: #cecbcb;
 }
 
 .footer {
@@ -110,7 +109,7 @@ body {
   padding: 30px;
 }
 
-.tarjeta-producto, .tarjeta-producto-aro, .tarjeta-producto-pulsera, .tarjeta-producto-anillo {
+.tarjeta-producto, .tarjeta-producto-aros, .tarjeta-producto-pulseras, .tarjeta-producto-anillo {
   background-color: var(--color__principal);
   border-radius: 12px;
   overflow: hidden;
@@ -120,32 +119,32 @@ body {
   flex-direction: column;
   cursor: pointer;
 }
-.tarjeta-producto:hover, .tarjeta-producto-aro:hover, .tarjeta-producto-pulsera:hover, .tarjeta-producto-anillo:hover {
+.tarjeta-producto:hover, .tarjeta-producto-aros:hover, .tarjeta-producto-pulseras:hover, .tarjeta-producto-anillo:hover {
   transform: scale(1.03);
   box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
 }
-.tarjeta-producto img, .tarjeta-producto-aro img, .tarjeta-producto-pulsera img, .tarjeta-producto-anillo img {
+.tarjeta-producto img, .tarjeta-producto-aros img, .tarjeta-producto-pulseras img, .tarjeta-producto-anillo img {
   width: 100%;
   height: 220px;
   -o-object-fit: cover;
      object-fit: cover;
 }
-.tarjeta-producto .contenido__tarjeta, .tarjeta-producto-aro .contenido__tarjeta, .tarjeta-producto-pulsera .contenido__tarjeta, .tarjeta-producto-anillo .contenido__tarjeta {
+.tarjeta-producto .contenido__tarjeta, .tarjeta-producto-aros .contenido__tarjeta, .tarjeta-producto-pulseras .contenido__tarjeta, .tarjeta-producto-anillo .contenido__tarjeta {
   padding: 16px;
   text-align: center;
 }
-.tarjeta-producto h3, .tarjeta-producto-aro h3, .tarjeta-producto-pulsera h3, .tarjeta-producto-anillo h3 {
+.tarjeta-producto h3, .tarjeta-producto-aros h3, .tarjeta-producto-pulseras h3, .tarjeta-producto-anillo h3 {
   margin-bottom: 8px;
   font-size: 1.1rem;
   font-weight: 600;
   color: var(--color__acento);
 }
-.tarjeta-producto .precio, .tarjeta-producto-aro .precio, .tarjeta-producto-pulsera .precio, .tarjeta-producto-anillo .precio {
+.tarjeta-producto .precio, .tarjeta-producto-aros .precio, .tarjeta-producto-pulseras .precio, .tarjeta-producto-anillo .precio {
   font-size: 1rem;
   font-weight: bold;
   color: #3c3cbf;
 }
-.tarjeta-producto .descripcion, .tarjeta-producto-aro .descripcion, .tarjeta-producto-pulsera .descripcion, .tarjeta-producto-anillo .descripcion {
+.tarjeta-producto .descripcion, .tarjeta-producto-aros .descripcion, .tarjeta-producto-pulseras .descripcion, .tarjeta-producto-anillo .descripcion {
   margin-top: 8px;
   font-size: 0.9rem;
   color: #666;
